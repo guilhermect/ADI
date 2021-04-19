@@ -1,13 +1,13 @@
-package br.edu.ifsp.controller;
+package controller;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.ifsp.exception.UnsuportedMathOperationException;
-import br.edu.ifsp.math.SimpleMath;
-import br.edu.ifsp.request.converters.NumberConverter;
+import exception.UnsuportedMathOperationException;
+import math.SimpleMath;
+import request.converters.NumberConverter;
 
 @RestController
 public class MathController {
