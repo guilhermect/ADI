@@ -1,4 +1,4 @@
-package math;
+package br.edu.ifsp.math;
 
 public class SimpleMath {
 	
@@ -25,5 +25,4 @@ public class SimpleMath {
 	public Double squareRoot(Double number) {
 		return (Double) Math.sqrt(number);
 	}
-	
 }

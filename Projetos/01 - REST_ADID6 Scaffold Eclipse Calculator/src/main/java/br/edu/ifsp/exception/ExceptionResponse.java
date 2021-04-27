@@ -1,4 +1,4 @@
-package exception;
+package br.edu.ifsp.exception;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,13 +9,13 @@ public class ExceptionResponse implements Serializable{
 	
 	private Date timestamp;
 	private String message;
-	private String details;
+	private String datails;
 	
-	public ExceptionResponse(Date timestamp, String message, String details) {
+	public ExceptionResponse(Date timestamp, String message, String datails) {
 		super();
 		this.timestamp = timestamp;
 		this.message = message;
-		this.details = details;
+		this.datails = datails;
 	}
 
 	public Date getTimestamp() {
@@ -26,7 +26,7 @@ public class ExceptionResponse implements Serializable{
 		return message;
 	}
 
-	public String getDetails() {
-		return details;
+	public String getDatails() {
+		return datails;
 	}
 }
